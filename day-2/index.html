@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Da-2 </title>
+</head>
+
+<style>
+
+    body{
+       width: 100%;
+       height:100vh; 
+    }
+
+#centerdiv{
+    width: 400px;
+    height:200px;
+    box-shadow:2px 5px 5px gray;
+    background-color: white;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    padding:10px;
+    border-radius: 10px;
+}
+
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+<body>
+
+    <div id="centerdiv">
+        <h1 align="center">Welcome Back</h1>
+        <center>
+            <strong style="font-size: 40px;" id="result">
+                0
+            </strong>
+
+        </center>
+
+        <button onclick="countnum()" style=" width:100%; padding:10px; background-color: blue; text-align: center; color:white; font-weight: bold; cursor: pointer;"> Count</button>
+         <button onclick="refreshcount()" style=" width:100%; padding:10px; background-color: blue; text-align: center; color:white; font-weight: bold; cursor: pointer;">
+            <i class="fa fa-refresh"></i> Reset</button>
+    </div>
+    
+
+    <script>
+     var count = 0;
+
+    function countnum(){
+        var result = document.getElementById("result");
+     count = count+1;
+      result.innerHTML = count;
+     
+       
+        }
+
+     function refreshcount() {
+        count = 0;
+         var result = document.getElementById("result");
+        result.innerHTML = count;
+
+
+     }
+
+
+    </script>
+</body>
+</html>

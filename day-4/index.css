@@ -1,0 +1,28 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+body{
+    height : 100vh;
+    width : 100vw;
+      display:flex;
+    justify-content:center;
+    align-items: center;
+
+}
+.container{
+     display:flex;
+     flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    font-size: 28px;
+}
+.btn{
+    width: 152px;
+    height: 60px;
+    border-radius:25px;
+    color:white;
+    background-color: #7829E0;
+}
+
