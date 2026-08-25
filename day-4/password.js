@@ -17,6 +17,12 @@ eye.className = "fa-solid fa-eye-slash";
 
  
 
-  
+  const divv = document.createElement("div");
 
- 
+ const inp = document.createElement("input");
+ inp.type = "file"; 
+
+ document.body.append(divv);
+ divv.append(inp);
+
+ divv.style.margin = "450px";

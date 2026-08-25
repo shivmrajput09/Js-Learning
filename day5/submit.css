@@ -1,0 +1,35 @@
+*{
+    margin : 0;
+    padding :0;
+    box-sizing:  border-box;;
+}
+body{
+    height : 100vh;
+       display :flex;
+
+     justify-content: center;
+    align-items: center;
+
+}
+.container{
+   display :flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap : 20px;
+    width: 380px;
+    height:420px;
+     border-radius:50px;
+     border-radius:50px;
+     border-color: #9D261D;
+     border : 2px solid;
+}
+  
+.input{
+     height : 30px;
+    border-radius: 15px;
+     padding : 12px;
+}
+#file{
+text-align: center;
+}
