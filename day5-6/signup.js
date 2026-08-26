@@ -20,8 +20,8 @@ buttons[0].addEventListener("click" , (e)=>{
   
 
 
-localStorage.setItem('userDeatail',JSON.stringify(userData));
+localStorage.setItem('userDetails',JSON.stringify(userData));
 alert('Sign-up successFully');
-
-});
+ 
+ });
 
