@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    
+    <form class="container">
+ 
+<button type="button" class="back-btn" onclick="window.location.href='signup.html'">←</button>
+
+<input class="input" pattern="[0-9]{10}" type="tel" placeholder="Mob No."
+maxlength="10" required>
+
+<input
+ class="input"
+  type="password"
+  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[\W_]).{8,}"
+   placeholder="password"
+   required>
+   <div class="button-storage"> <span style="color:rgb(182, 11, 205); margin : 15px"   >forget password ?</span>
+   <button  type="submit" class="submit-btn">login </button> 
+  </div>
+
+
+    </form>
+
+   
+    <script src="login.js"></script>
+</body>
+</html>

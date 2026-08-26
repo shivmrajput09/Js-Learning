@@ -23,6 +23,9 @@ body{
      border-radius:50px;
      border-color: #9D261D;
      border : 2px solid;
+     position :relative;
+         top:5px;
+
 }
   
 .input{
@@ -32,4 +35,27 @@ body{
 }
 #file{
 text-align: center;
+}
+.submit-btn{
+    width: 120px;
+    height: 50px;
+    background-color:#9D7BBE;
+    color:white;
+    font-size:18px;
+    border:none;
+    border-radius:50px; 
+}
+.back-btn {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background-color: #f1f1f1;
+    font-size: 24px;
+    cursor: pointer;
+    color:#9D7BBE;
+    position : absolute;
+    top:22px;
+left: 22px;
+
 }
