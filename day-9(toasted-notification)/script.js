@@ -4,7 +4,7 @@ const buttons = document.querySelectorAll(".buttons");
 buttons.forEach(buttons =>{
  
 
-  buttons.addEventListener("dblclick",(e)=>{
+  buttons.addEventListener("click",(e)=>{
     const color = e.target.dataset.color;
 
     const notifications = document.getElementById(color);
