@@ -4,11 +4,11 @@ window.print();
 
 var closeBtn = document.getElementById("closeBtn");
 const printclass = document.getElementsByClassName("printclass")[0];
- printclass.onclick = (){
+ printclass.onclick => (){
     console.log("Hellow Shivam");
  }
 function
-closeBtn.onclick= function closescreen(){
+closeBtn.onclick = function closescreen(){
     window.close();
 }
 

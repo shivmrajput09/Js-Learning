@@ -21,7 +21,7 @@ buttons[0].addEventListener("click" , (e)=>{
 
 
 localStorage.setItem('userDetails',JSON.stringify(userData));
-alert('Sign-up successFully');
+alert('Sign-in successFully');
  
  });
 
