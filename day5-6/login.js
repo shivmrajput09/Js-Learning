@@ -7,11 +7,8 @@
     button.addEventListener("click" , (e)=>{
         e.preventDefault();
         
-   
 
- 
   
-
 
     let userdata = JSON.parse(localStorage.getItem('userDetails'));
     
